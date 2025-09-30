@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 :root{
-    --mauve: #caa8f5ff;
---tropical-indigo: #9984d4ff;
---tekhelet: #592e83ff;
---dark-purple: #230c33ff;
-
+  
+    --azul: rgb(168, 223, 245);
+--azul-forte: rgb(14, 84, 189);
+--amarelo: rgb(187, 207, 72);
+--laranja: rgb(230, 109, 40);
+--titulo: "bitcount prop Double Ink"
+--texto:"shere tech", sans-serif; 
 }
+
+  body{ 
+      background-color: var(--azul);
+    font-family: var(--texto);  
+
+  }
